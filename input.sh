@@ -1,6 +1,3 @@
-read -p 'Enter MYSQL Root UserName:' User
+echo Username = $1
 
-read -s -p 'Enter MYSQL Root Password:' Pass
-
-echo "Username & Password from read= $User & $Pass"
-
+echo Password = $2
